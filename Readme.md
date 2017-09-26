@@ -88,3 +88,24 @@ __You are encouraged to collaborate with your peers.__ However, you are also res
 2. __Use Pandas's I/O functions to import the raw data from the CSV file.__ Make sure to use `dtype`s to name and type the columns while reading the file.
 3. __For the calculations step, have NumPy use the data in the DataFrame.__ We covered several ways to get a NumPy array from Pandas in class. Store the new data in two new columns, without creating a DataFrame.
 4. __Use DataFrame's I/O functions to present your results.__ Render the HTML for Jupyter and export to the CSV file `StatsResults.csv`.
+
+# Part 5: A Large Data Set from Scratch
+## Theory: You should know ...
+* Numpy, Pandas, Matplotlib
+* Markdown and Jupyter
+* Basic descriptive analytics
+
+## Practice: You be able to ...
+* Create and lay out a new Jupyter Notebook
+* Collaborate with your peers using Git/Github
+* Use Pandas to load and manipulate a large dataset
+* Use Numpy to analyze the numbers
+* Use Matplotlib to plot key statistics
+
+## Instructions
+1. __Study the `ehresp_2-15.csv` and `EHResp2015.info.txt` files.__ The data was collected by the US Department of labor and includes various health stats from many thousands of people. Based on what you know, come up with 3 interesting research questions that you would like to test with the data.
+2. __Create a new Notebook called `EH_Study_2015.ipynb` in the same folder as your new data.__ Outline your study, including details like where the data came from, the key columns in the dataset, and what research questions you intend to study. Include the next step as a fourth research question.
+3. __Load your data.__ Use a Pandas DataFrame called `source_data` with appropriate column names, data types,  and numerical indexes. Take care to ensure that your data loaded correctly before proceeding. You may want to keep your results separate from your source data, perhaps in a new DataFrame called `results`.
+4. __Do an analysis of Body Mass Index data, comparing males with females.__ You will need to calculate BMI for each person and then display histograms with males in green and females in magenta. If you can figure out how, display both histograms on one plot.
+5. __Perform the rest of your analysis.__ Show your calculations and use plots to illustrate your results.
+6. __Present your results in class.__ We will do this in the next class period.
