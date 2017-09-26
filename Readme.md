@@ -103,6 +103,7 @@ __You are encouraged to collaborate with your peers.__ However, you are also res
 * Use Matplotlib to plot key statistics
 
 ## Instructions
+0. __Form a team of 2-3 people.__ We want the minimum number of teams. Choose wisely as this is your tryout for the final projects.
 1. __Study the `ehresp_2-15.csv` and `EHResp2015.info.txt` files.__ The data was collected by the US Department of labor and includes various health stats from many thousands of people. Based on what you know, come up with 3 interesting research questions that you would like to test with the data.
 2. __Create a new Notebook called `EH_Study_2015.ipynb` in the same folder as your new data.__ Outline your study, including details like where the data came from, the key columns in the dataset, and what research questions you intend to study. Include the next step as a fourth research question.
 3. __Load your data.__ Use a Pandas DataFrame called `source_data` with appropriate column names, data types,  and numerical indexes. Take care to ensure that your data loaded correctly before proceeding. You may want to keep your results separate from your source data, perhaps in a new DataFrame called `results`.
